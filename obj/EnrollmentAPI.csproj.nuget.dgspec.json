@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjetosDev\\Mentoria\\EnrollmentAPI\\EnrollmentAPI.csproj": {}
+    "C:\\Users\\cce-teste37\\Documents\\Bootcamp\\EnrollmentAPI\\EnrollmentAPI.csproj": {}
   },
   "projects": {
-    "E:\\ProjetosDev\\Mentoria\\EnrollmentAPI\\EnrollmentAPI.csproj": {
+    "C:\\Users\\cce-teste37\\Documents\\Bootcamp\\EnrollmentAPI\\EnrollmentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetosDev\\Mentoria\\EnrollmentAPI\\EnrollmentAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cce-teste37\\Documents\\Bootcamp\\EnrollmentAPI\\EnrollmentAPI.csproj",
         "projectName": "EnrollmentAPI",
-        "projectPath": "E:\\ProjetosDev\\Mentoria\\EnrollmentAPI\\EnrollmentAPI.csproj",
-        "packagesPath": "C:\\Users\\Moosh\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetosDev\\Mentoria\\EnrollmentAPI\\obj\\",
+        "projectPath": "C:\\Users\\cce-teste37\\Documents\\Bootcamp\\EnrollmentAPI\\EnrollmentAPI.csproj",
+        "packagesPath": "C:\\Users\\cce-teste37\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cce-teste37\\Documents\\Bootcamp\\EnrollmentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Moosh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cce-teste37\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -46,11 +46,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

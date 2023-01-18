@@ -18,5 +18,20 @@ namespace EnrollmentAPI.src.Controllers
         {
             _context = context;
         }
+
+        [HttpDelete]
+        public IActionResult DeleteEnrollment(int enrollment)
+        {
+            if (enrollment == 0 || enrollment == null)
+            return BadRequest("Favor inserir um número válido de matrícula.");
+
+            var studentDB = _context.Students.Where(p => p.Enrollment == enrollment);
+
+            if (studentDB == null)
+            return NotFound("Número de matrícula inválido");
+
+            _context.Students.Remove(studentDB);
+            return Ok();
+        }
     }
 }

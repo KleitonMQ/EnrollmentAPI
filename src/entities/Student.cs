@@ -12,5 +12,6 @@ namespace EnrollmentAPI.src.entities
         public int Age { get; set; }
         public char Gender { get; set; }
         public List<Course> course { get; set; }
+        public int Enrollment { get; set; }
     }
 }
